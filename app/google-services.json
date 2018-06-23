@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "511903636732",
+    "firebase_url": "https://registro-horario-198fc.firebaseio.com",
+    "project_id": "registro-horario-198fc",
+    "storage_bucket": "registro-horario-198fc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:511903636732:android:c92e25da160b7350",
+        "android_client_info": {
+          "package_name": "com.siriolibanes.miregistro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "511903636732-j2vg1pjach4tdiv4n90adq0tuplpta5j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDu2DQ6iE45FvWAtMju0uJqeRGztHhaD5c"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

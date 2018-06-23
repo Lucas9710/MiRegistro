@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Mi Registro</string>
+    <string name="button_register">Registrarse</string>
+    <string name="hintPassword">Contraseña</string>
+    <string name="hintEmail">Mail</string>
+    <string name="hintPhone">Teléfono</string>
+    <string name="hintName">Nombre</string>
+    <string name="subtitleHeader">|Sirio Libanés|</string>
+    <string name="events_camelcase">EVENTOS</string>
+    <string name="error_message_signup">No hemos podido registrar el usuario.</string>
+    <string name="error_message_empty_fields">Completa todos los campos requeridos</string>
+    <string name="button_login">Ingresar</string>
+    <string name="error_message_login">No pudimos iniciar sesión, verifica los datos ingresados</string>
+    <string name="empty_events_title">No tienes eventos cargados</string>
+    <string name="empty_events_message">Cuando accedas a un evento aquí encontrarás el listado de todos los eventos a los que fuiste invitado</string>
+    <string name="home_button">Acceder a un evento</string>
+    <string name="hintLastName">Apellido</string>
+</resources>
