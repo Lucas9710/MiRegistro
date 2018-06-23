@@ -31,7 +31,7 @@ public class SplitterActivity extends AbstractActivity {
                 }
             });
         } else {
-            startActivity(new Intent(SplitterActivity.this, HomeActivity.class)
+            startActivity(new Intent(SplitterActivity.this, CheckActivity.class)
                     .setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_NEW_TASK));
             finish();
         }

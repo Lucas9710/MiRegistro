@@ -88,7 +88,7 @@ public class LoginActivity extends AbstractActivity implements LoginView {
 
     @Override
     public void onLogin() {
-        startActivity(new Intent(this, HomeActivity.class)
+        startActivity(new Intent(this, CheckActivity.class)
                 .setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK));
         finish();
     }
