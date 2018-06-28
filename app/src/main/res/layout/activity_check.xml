@@ -45,7 +45,7 @@
         android:id="@+id/centro"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:background="@color/white"
+        android:background="@color/grey"
         app:layout_constraintBottom_toTopOf="@+id/inferior"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -62,7 +62,7 @@
     <FrameLayout
         android:id="@+id/superior"
         android:layout_width="0dp"
-        android:layout_height="200dp"
+        android:layout_height="150dp"
         android:background="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -72,21 +72,36 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
+            <FrameLayout
+                android:id="@+id/line"
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="32dp"
+                android:layout_marginStart="16dp"
+                android:background="@color/white"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent">
+
+            </FrameLayout>
+
             <TextView
                 android:id="@+id/textView14"
-                android:textSize="18dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
                 android:text="MIS REGISTROS"
-                tools:layout_editor_absoluteX="16dp"
                 android:textColor="@color/white"
-                tools:layout_editor_absoluteY="165dp" />
+                android:textSize="18dp"
+                app:layout_constraintBottom_toTopOf="@+id/line"
+                app:layout_constraintStart_toStartOf="parent" />
 
             <Button
                 android:id="@+id/button2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginEnd="8dp"
+                android:layout_marginEnd="16dp"
                 android:background="@color/black"
                 android:text="Cerrar sesión"
                 android:textColor="@color/white"
@@ -110,7 +125,7 @@
                 android:id="@+id/textView13"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginEnd="8dp"
+                android:layout_marginEnd="16dp"
                 android:layout_marginTop="24dp"
                 android:background="@color/black"
                 android:text="Empleado Feliz"
