@@ -1,3 +1,5 @@
+package android.com.sirioibanes.dtos;
+
 public class Registro {
     public String state;
     public int timestamp;

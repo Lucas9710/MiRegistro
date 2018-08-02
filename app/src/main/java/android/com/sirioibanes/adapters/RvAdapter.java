@@ -1,4 +1,7 @@
+package android.com.sirioibanes.adapters;
+
 import android.com.sirioibanes.R;
+import android.com.sirioibanes.dtos.Registro;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
